@@ -5,3 +5,6 @@ class Number(object):
 
     def getNum(self):
         return self.const
+
+    def setNum(self, const):
+        self.const = const

@@ -5,3 +5,9 @@ class Float(object):
 
     def getFloat(self):
         return self.number.getNum()
+
+    def setNum(self, number):
+        self.number = number
+
+    def setNumNum(self, number):
+        self.number.setNum(number)

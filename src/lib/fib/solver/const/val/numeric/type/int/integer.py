@@ -5,3 +5,6 @@ class Integer(object):
 
     def getInt(self):
         return self.number.getNum()
+
+    def setNum(self, number):
+        self.number = number

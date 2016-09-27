@@ -1,5 +1,5 @@
-from .lib.const.const import Const
-from .lib.const.val.numeric.compare.equalTo import equalTo
+from .lib.fib.solver.const.const import Const
+from .lib.fib.solver.header import Header
 
 def main():
     c = Const()
