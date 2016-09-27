@@ -40,5 +40,5 @@ class Const(object):
     def getNine(self):
         return CONST_NINE
 
-    def getSeven(self):
+    def getZero(self):
         return CONST_ZERO
