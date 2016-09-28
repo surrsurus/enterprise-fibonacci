@@ -15,4 +15,5 @@ class DataModel(object):
         self.dataModel[pos.getInt()] -= integer.getInt()
 
     def get(self, pos):
-        return self.dataModel[pos]
+        # print(self.dataModel[pos])
+        return self.dataModel[pos.getInt()]
