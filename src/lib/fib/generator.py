@@ -226,7 +226,8 @@ class Generator(object):
 
             elif equalToSym(s, '.'):
                 try:
-                    self.l.log(toInt(int(chr(self.d.get(self.h.get().getInt())))))
+                    if self.l.log(toInt(int(chr(self.d.get(self.h.get().getInt()))))):
+                        break
                 except:
                     pass
 

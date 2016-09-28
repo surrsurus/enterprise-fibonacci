@@ -14,4 +14,5 @@ class LogTracker(object):
         self.p = toInt(plus(self.p, self.c.getOne()))
         if equalTo(self.p, self.n):
             print(integer.getInt())
-            exit(0)
+            return True
+        return False
