@@ -1,10 +1,10 @@
 from .const.val.numeric.type.num.number import Number
 from .const.val.numeric.type.int.integer import Integer
 from .const.val.numeric.type.flt.float import Float
+from .const.val.numeric.type.toInt import toInt
 from .const.val.numeric.arithmetic.plus import plus
 from .const.val.numeric.arithmetic.subtract import subtract
 from .const.val.numeric.arithmetic.divide import divide
-from .const.val.numeric.type.toInt import toInt
 from .const.val.numeric.arithmetic.multiply import multiply
 from .const.val.numeric.compare.greaterThan import greaterThan
 from .const.val.numeric.compare.lessThan import lessThan
@@ -14,9 +14,9 @@ from .const.val.numeric.compare.greaterThanOrEqual import greaterThanOrEqual
 
 from .const.const import Const
 
-class Header(object):
+class Pointer(object):
     def __init__(self, integer):
-        super(Header, self).__init__()
+        super(Pointer, self).__init__()
         self.integer = integer
         self.c = Const()
 

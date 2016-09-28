@@ -1,6 +1,8 @@
 from .lib.fib.solver.const.const import Const
-from .lib.fib.solver.header import Header
+from .lib.fib.generator import Generator
 
 def main():
     c = Const()
-    print(c.getOne().getInt())
+    g = Generator(5)
+    # print('---')
+    g.solve()
