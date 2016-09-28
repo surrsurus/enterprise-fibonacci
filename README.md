@@ -9,7 +9,7 @@ Find the nth value of the fibonacci series. Suitable for enterprise solutions.
 
 #### Q: Why should I use this fibonacci generator?
 
-A: It is *enterprise quality*, meaning that when you run fib.py, you aren't just getting a fibonacci generator using tuple unpacking or some other dumb technology list comprehension, you're only getting the best of a tried and true robust framework suitable for production code.
+A: It is *enterprise quality*, meaning that when you run fib.py, you aren't just getting a fibonacci generator using tuple unpacking or some other dumb, concise method, you're only getting the best of a tried and true robust framework suitable for production code.
 
 #### Q: Why is this repo so large? 30 Mb seems like a lot.
 
