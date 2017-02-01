@@ -3,6 +3,7 @@ Find the nth value of the fibonacci series. Suitable for enterprise solutions.
 
 # How to Use
 - Run fib.py in terminal (linux) or the IDLE (windows)
+- Make sure it's Python 3
 - Enter valid integer from 1 - ∞ (not inclusive of ∞)
 
 # FAQs
